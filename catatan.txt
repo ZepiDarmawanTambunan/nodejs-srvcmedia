@@ -1,0 +1,11 @@
+npm install dotenv
+npm install nodemon
+npm install sequelize sequelize-cli --save
+npx sequelize *utk melihat command sequelize-cli
+npx sequelize init *inisialisasi sequelize
+npx sequelize migration:create --name=create-table-media
+npx sequelize db:migrate
+npx sequelize db:migrate:undo *rollback --step=1
+npm install mysql2 --save
+npm install is-base64 --save *cek string ini base64 gk
+npm install base64-img --save *upload base64 menjadi image
