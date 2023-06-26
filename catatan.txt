@@ -9,3 +9,4 @@ npx sequelize db:migrate:undo *rollback --step=1
 npm install mysql2 --save
 npm install is-base64 --save *cek string ini base64 gk
 npm install base64-img --save *upload base64 menjadi image
+https://base64.guru/converter/encode/image
